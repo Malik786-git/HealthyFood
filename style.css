@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  } 
+.wrapped{
+    background: url(./images/banner.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-color: #E2EDC2;
+}
+.row{
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+
+}
+.Navcolor{
+    background: #6788B1;
+    padding:0px 0px !important ;
+}
+.navbar-brand{
+    color: #FFCF92;
+    font-weight: bold;
+}
+.navbar-brand:hover{
+    color: #FFCF92;
+ 
+}
+.nav-link{
+    color: #fff;
+    font-weight: 600;
+
+}
+.nav-link:hover{
+    color: #FFCF92;
+}
+
+.Hero_section{
+    margin-top: 150px;
+}
+
+.Hero_section h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.Hero_section p{
+    color: #fff;
+}
+.btn_showMore{
+  padding: 10px 40px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  background: #6788B1;
+  color: #fff;
+  border: 1px solid #6788B1;
+
+  transition: 0.2s;
+}
+.btn_showMore:hover{
+    color: #6788B1;
+    background: #fff;
+    border: 1px solid #6788B1;
+}
+.menu_section{
+ background: #E2EDC2;
+}
+.menu_section h1{
+    color: #6788B1;
+}
+/* Gallery */
+.Gallery{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    display: flex;
+    flex-direction: row;
+
+}
+.Gallery img{
+   width: 100%;
+}
+.gallery_a{
+
+
+    width: 50%;
+}
+.gallery_b{
+
+    width: 50%;
+    padding-top: 100px;
+
+}
+/* Counter__Section */
+.Counter__Section{
+    background:#6788B1;
+}
+.Counter__Section h2{
+  background: #fff;
+  color: #6788B1;
+  /* display: inline; */
+  border-radius: 100%;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  line-height: 25px;
+  margin: 0 auto;
+}
+.Counter__Section p{
+    font-size: 12px;
+}
+.free_delivery{
+    background: url(/images/img_6.png) no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.social_media{
+    background: #E2EDC2;
+    color: #6788B1;
+}
+.social_media h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    display: block;
+}
+.socail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.socail i{
+   color: #E2EDC2;
+   background: #6788B1;
+  border: 1px solid #6788B1;
+
+   /* padding: 20px; */
+   border-radius: 100%;
+   font-size: 25px;
+   line-height: 50px;
+   height: 50px;
+   width: 50px;
+   margin: 50px 10px;
+   cursor: pointer;
+}
+.socail i:hover{
+  color: #6788B1;
+  background: #E2EDC2;
+  border: 1px solid #6788B1;
+}
+.footer_list ul li{
+    list-style: none;
+    font-size: 12px;
+    padding-top: 3px;
+    cursor: pointer;
+  }
+  .footer_list p{
+      font-size: 14px;
+  }
+
+.footer_section{
+    background: url(./images/img_7.png) no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    background-color: #E2EDC2;
+    position: relative;
+}
+.footer__content{
+  position: absolute;
+  bottom: 50px;
+  color: #fff;
+}
+
+  @media screen and (max-width:998px) {
+    .Gallery{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .Gallery img{
+       width: 100%;
+    }
+    .gallery_a{
+        width: 100%;
+    }
+    .gallery_b{
+        text-align: center;
+        width: 100%;
+        padding: 0px 50px 0px 50px;
+    
+    }
+  }
+  
+  @media screen and (max-width:768px) {
+    html{
+        font-size: 80%;
+    }
+    .Hero_section h1{
+        font-size: 50px;
+    }
+    .Gallery{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .Gallery img{
+       width: 100%;
+    }
+    .gallery_a{
+        width: 100%;
+    }
+    .gallery_b{
+        text-align: center;
+        width: 100%;
+        padding: 0px 50px 0px 50px;
+    
+    }
+    .footer__content p{
+       padding-bottom: 20px;
+    }
+    .footer__content{
+        bottom: 0px;
+        padding: 0px 0px !important;
+        text-align: center;
+      }
+}
+
+  @media screen and (max-width:576px) {
+    html{
+        font-size: 70%;
+    }
+    .Hero_section h1{
+        font-size: 40px;
+    }
+}
